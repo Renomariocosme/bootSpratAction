@@ -7,12 +7,32 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--SEM PRECISAR DO CSS USANDO APENAS TAG REFERENCIADAS NO BOOTSTRAP-->
+    <style>
+    .tm-social{
+    width: 50px;
+    height: 50px;
+}
+    .background-site{
+      background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2422203-abstract-nature-mountain-view-blue-and-green-gradiente-background-gr%C3%A1tis-vetor.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
 
-    <title>Hello, world!</title>
+
+    </style>
+
+<!--/SEM PRECISAR DO CSS USANDO APENAS TAG REFERENCIADAS NO BOOTSTRAP-->
+    
+<title>itCat</title>
   </head>
-  <body> <!--NAVBAR/BARRA DE NAVG-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+  <body class="background-site">
+  
+  <!--Formulario> <!--NAVBAR/BARRA DE NAVG-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">Cat.com</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,22 +47,22 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Ver mais
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Matérias</a>
+                <a class="dropdown-item" href="https://c.tenor.com/GekDdVzKeaIAAAAC/turbo-cat-flex-on-cats-ex.gif " target='_blank'>Postagem sobre gatos e natureza</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="https://www.patasdacasa.com.br/noticia/curiosidades-sobre-gatos-30-coisas-que-voce-talvez-ainda-nao-saiba-sobre-os-felinos_a195/1" target='_blank' >Coisas sobre gatos e natureza</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link disabled" href="#"></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          
+           
           </form>
         </div>
       </nav>
@@ -57,13 +77,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://www.hexacta.com/wp-content/uploads/2015/08/maxresdefault.jpg" alt="First slide">
+            <img class="d-block w-100" src="https://a-static.besthdwallpaper.com/fundo-do-campo-de-girassol-papel-de-parede-1280x720-12104_45.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://freetutsdownload.net/wp-content/uploads/2020/09/maxresdefault-16.jpg" alt="Second slide">
+            <img class="d-block w-100" src="https://thiagoorganico.com/wp-content/uploads/2018/10/como-plantar-jasmim.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/JavascriptCapa-1280x720.jpg" alt="Third slide">
+            <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -76,11 +96,12 @@
         </a>
       </div>
 <!--/carrosel-->
-      <!--/jumpbuton-->
+     
+<!--/jumpbuton-->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Este é um site prototipo</h1>
+          <p class="lead">Esse aqui é um texto para não deixar vago, pode continuar a rolagem.</p>
         </div>
       </div>
       <!--/jumpbuton-->
@@ -89,10 +110,10 @@
       <div class="container">
         <div class="card-columns">
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+              <img class="card-img-top" src="https://i.pinimg.com/564x/26/64/50/266450db236ec2d3d42c12793f2c3ef5.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title that wraps to a new line</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Estou timido e respeitar ok</h5>
+                <p class="card-text">Este gato esboça seus dedos apontados um para o outro de maneira que, demostre sua timidez.</p>
               </div>
             </div>
             <div class="card p-3">
@@ -106,16 +127,16 @@
               </blockquote>
             </div>
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+              <img class="card-img-top" src="https://i.pinimg.com/564x/f3/f4/80/f3f48012a8ee119160be0d049ec4c282.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">💤</h5>
+                <p class="card-text">Mimindo estaria se pudesse.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-            <div class="card bg-primary text-white text-center p-3">
+            <div class="card bg-success text-light text-center p-3">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                <p>Um monte de gato para vocês.</p>
                 <footer class="blockquote-footer">
                   <small>
                     Someone famous in <cite title="Source Title">Source Title</cite>
@@ -125,17 +146,17 @@
             </div>
             <div class="card text-center">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                <h5 class="card-title">Soninho aiai a mimir 💤 </h5>
+                <p class="card-text">💤💤💤💤💤💤💤💤💤💤💤.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img" src=".../100px260/" alt="Card image">
+              <img class="card-img" src="https://i.pinimg.com/564x/c1/0e/67/c10e67306d63c718ab0fc29541cbaeb8.jpg" alt="Card image">
             </div>
             <div class="card p-3 text-right">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p>Gatinho juntos uiui fofos 💖.</p>
                 <footer class="blockquote-footer">
                   <small class="text-muted">
                     Someone famous in <cite title="Source Title">Source Title</cite>
@@ -145,8 +166,8 @@
             </div>
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+                <h5 class="card-title">Em produção...</h5>
+                <p class="card-text">Em processo de finalização...</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
@@ -168,18 +189,115 @@
         </div>
 
         <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7PZgyKLi2w0" title="YouTube video player" frameborder="0" allow="accelerometer;
-             autoplay; clipboard-write; 
-             encrypted-media; gyroscope; 
-             picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/NUYvbT6vTPs" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
 
       </div>
 
     </div>
+        
+    <!--/Texto e video-->
+    
+    <!--Formulario de contato-->
+
+    <div class='row mb-5'>
+      <div class="col-md-12">
+        <h4 class='text-center'>
+          Gostasse dos gatos? Entra em contato comigo aí
+        </h4>
+      </div>
+    </div>
+    
+    <div class='row d-flex align-itens-center justify-content-center'>
+      <div class="col-md-4 ">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address: </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">       
+           
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Example multiple select: </label>          
+          </div>
+          
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group d-flex justify-content-end">
+            <button class='btn btn-outline-success'>Enviar</button>
+          </div>
+       
+       
+       
+        </form>        
+      </div>
+
+      <div class='col-md-4'>
+          <iframe class='w-100'src="https://www.google.com/maps/embed?pb=!4v1637690505425!6m8!1m7!1srYfytScdveG92hykk6zS4g!2m2!1d-8.003382372456057!2d-35.03744279817563!3f176.608172904108!4f0!5f0.7820865974627469" 
+          width="400" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy"  onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
+       
+      </div>
+      
+      
+    </div>
+
+    </div>
 
 
-        <!--/Texto e video-->
+
+    
+
+<!--/Formulario de contato-->
+
+    <!--Rodapé-->
+    
+    <footer>
+    
+      <div class='row mb-3'>
+        <div class='col-md-12 d-flex justify-content-center'>
+         
+            
+            <a href="https://www.facebook.com/" target="_blank" class='p-3'>
+                <img class="tm-social " src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+           
+            <a href="https://www.linkedin.com/in/renomario-cosme-6b1337142/" target="_blank" class='p-3'>
+                <img class="tm-social "src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class='p-3'>
+                <img class="tm-social "src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+    
+        </div>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class="col-md-12">
+          <p class="text-center">
+            Todos os direitos reservados: Renomário &copy 
+    
+        </p>
+        </div>
+      </div>
+     
+      
+      
+      
+  
+  </footer>
 
 
     <!-- Optional JavaScript -->
